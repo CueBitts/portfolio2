@@ -1,18 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    max-width: 1250px;
+}
+
 .about-me {
     background-color: #f2f2f2;
-    max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1250px;
 }
 .my-skills {
-    max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1250px;
 }
 .my-projects {
     background-color: #f2f2f2;
-    max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1250px;
 }
 .contact-me {
-    max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1250px;
 }
