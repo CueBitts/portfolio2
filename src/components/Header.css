@@ -1,0 +1,6 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    max-width: 1250px;
+}
+
