@@ -1,11 +1,15 @@
 import './App.css';
 
+import Header from './components/Header';
+
+
 function App() {
   return (
     <div className='App'>
-      <div className='container'>  
+      <div className='container'> 
         <div className='column' id='1'></div>
         <div className='column' id='2'>
+          <Header/>
           <div className='about-me'>
             about me
           </div>
@@ -24,5 +28,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App;

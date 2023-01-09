@@ -1,9 +1,17 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
-    max-width: 1250px;
+    max-width: 1750px;
 }
-
+.headerContent {
+    display: inline;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
 .about-me {
     background-color: #f2f2f2;
     min-height: 1250px;

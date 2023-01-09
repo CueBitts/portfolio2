@@ -1,14 +1,14 @@
-import './Header.css'
-
 function Header() {
     return (
         <div className='header'>
-            <div className='headerContainer'>  
-                <div className='headerColumn' id='1'></div>
-                <div className='headerColumn' id='2'>
-                    header
-                </div>
-                <div className='headerColumn' id='3'></div>
+            <div className="headerContent" id='left'>
+                QH
+            </div>
+            <div className="headerContent" id='right'>
+                <a href='#'>About Me</a> | 
+                <a href='#'>My Skills</a> | 
+                <a href='#'>My Projects</a> | 
+                <a href='#'>Contact Me</a> | 
             </div>
         </div>
     )
